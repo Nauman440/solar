@@ -6,7 +6,7 @@ export default function Home() {
       <div className="announcement">Good for your home. Better for the planet. <span>Let’s make the switch.</span> <span aria-hidden="true">↗</span></div>
       <header className="header container">
         <a className="logo" href="#home" aria-label="Solara home"><span className="sun">✳</span> solara<span className="logo-dot">.</span></a>
-        <nav aria-label="Main navigation"><a className="active" href="#home">Home</a><a href="#about">Our approach</a><a href="#solutions">Solutions</a><a href="#contact">Contact</a></nav>
+        <nav aria-label="Main navigation"><a className="active" href="#home" aria-current="page">Home</a><a href="/about">About us</a><a href="#solutions">Solutions</a><a href="#contact">Contact</a></nav>
         <a className="button button-small" href="#contact">Let’s talk solar <Arrow /></a>
       </header>
       <main id="home">
@@ -15,7 +15,7 @@ export default function Home() {
             <div className="eyebrow"><span className="status-dot" /> CLEAN ENERGY. BRIGHTER LIVING.</div>
             <h1>A brighter future.<br />Starts on <span>your roof.</span></h1>
             <p>Turn everyday sunshine into extraordinary possibilities. Simple, reliable solar energy for your home and the world around it.</p>
-            <div className="hero-actions"><a className="button" href="#solutions">Find your solar solution <Arrow /></a><a className="text-link" href="#about">Get to know us <span>→</span></a></div>
+            <div className="hero-actions"><a className="button" href="#solutions">Find your solar solution <Arrow /></a><a className="text-link" href="/about">Get to know us <span>→</span></a></div>
             <div className="hero-note"><span className="little-sun">☀</span> Powered by sunshine. Built around you.</div>
           </div>
           <div className="hero-art">
