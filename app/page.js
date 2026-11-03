@@ -34,6 +34,21 @@ export default function Home() {
           </div>
         </section>
         <section className="about container" id="about"><div className="about-symbol" aria-hidden="true">✳</div><div><div className="eyebrow">SMALL SWITCH. BIG POSSIBILITIES.</div><h2>Good energy starts<br />with good people.</h2><p>We believe a cleaner future should feel within reach. That’s why our approach is simple: listen first, design thoughtfully, and be there for every step of your solar journey.</p></div></section>
+        <section className="founder container" id="founder" aria-labelledby="founder-heading">
+          <div className="founder-quote">
+            <span className="founder-sun" aria-hidden="true">✳</span>
+            <blockquote>“A brighter future should begin with something as simple as feeling at home.”</blockquote>
+            <div className="founder-person"><span className="founder-initials" aria-hidden="true">AM</span><div><strong>Alex Morgan</strong><span>Founder, Solara · Sample profile</span></div></div>
+          </div>
+          <div className="founder-story">
+            <div className="eyebrow">A NOTE FROM OUR FOUNDER</div>
+            <h2 id="founder-heading">It started with a roof.<br />And a bigger idea.</h2>
+            <p>When Alex began exploring solar for a family home, one thing stood out: making a positive change felt far more complicated than it needed to be. There were big promises, unfamiliar terms, and too few straightforward answers.</p>
+            <p>Solara grew from a simple idea: give people the clarity and care we would want for our own families. Bring together thoughtful design, practical advice, and people who love what they do.</p>
+            <p>Today, that idea still guides every conversation. One home, one rooftop, and one brighter beginning at a time.</p>
+            <a className="text-link" href="#contact">Start your own solar story <span aria-hidden="true">→</span></a>
+          </div>
+        </section>
         <section className="contact container" id="contact"><div><div className="eyebrow">YOUR NEXT CHAPTER IS BRIGHT</div><h2>Ready for a little more sunshine?</h2><p>Your journey to better energy starts with a conversation.</p></div><a className="button" href="mailto:hello@example.com">Say hello <Arrow /></a></section>
       </main>
       <footer className="container"><a className="logo" href="#home"><span className="sun">✳</span> solara.</a><p>© {new Date().getFullYear()} Solara. A brighter every day.</p><span className="demo-label">Demo website · Sample content</span></footer>
